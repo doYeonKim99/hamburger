@@ -63,7 +63,7 @@
             android:layout_height="60dp"
             android:src="@drawable/hi"
             android:layout_width="75dp" />
-        <ImageButton햣
+        <ImageButton
             android:layout_height="60dp"
             android:src="@drawable/hi"
             android:layout_width="75dp" />
