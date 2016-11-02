@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.34">
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="만들 햄버거"/>
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="149dp"
+        android:layout_weight="0.66">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="만든 햄버거"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="73dp"
+        android:layout_weight="0.02">
+
+        <ImageButton
+            android:layout_height="60dp"
+            android:background="@drawable/bread"
+            android:layout_width="72dp" />
+
+        <ImageButton
+            android:layout_height="60dp"
+            android:background="@drawable/cheese"
+            android:layout_width="72dp" />
+        <ImageButton
+            android:layout_height="60dp"
+            android:background="@drawable/patyy"
+            android:layout_width="72dp" />
+
+        <ImageButton
+            android:layout_height="60dp"
+            android:background="@drawable/lettuce"
+            android:layout_width="72dp" />
+        <ImageButton
+            android:layout_height="60dp"
+            android:background="@drawable/tomato"
+            android:layout_width="72dp" />
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="73dp">
+
+        <ImageButton
+            android:layout_height="60dp"
+            android:src="@drawable/hi"
+            android:layout_width="75dp" />
+        <ImageButton햣
+            android:layout_height="60dp"
+            android:src="@drawable/hi"
+            android:layout_width="75dp" />
+        <ImageButton
+            android:layout_height="60dp"
+            android:src="@drawable/hi"
+            android:layout_width="75dp" />
+        <ImageButton
+            android:layout_height="60dp"
+            android:src="@drawable/hi"
+            android:layout_width="75dp" />
+        <ImageButton
+            android:layout_height="60dp"
+            android:src="@drawable/hi"
+            android:layout_width="75dp" />
+        </LinearLayout>
+    </LinearLayout>
+
